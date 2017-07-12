@@ -26,7 +26,7 @@
 		</table>
 
 		<!-- HTML comments go here-->
-		<h2>A few of my favorite things</h2>
+		<h2 class="red-heading heading text-green">A few of my favorite things</h2>
 		<ul>
 			<li>Sleep</li>
 			<li>Video games</li>
