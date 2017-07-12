@@ -24,6 +24,18 @@
 				<td>German Shepard</td>
 			</tr>
 		</table>
-		<!-- comments here-->
+		<!-- HTML comments go here-->
+		<h2>A few of my favorite things</h2>
+		<ul>
+			<li>Sleep</li>
+			<li>Video games</li>
+			<li>A special someone</li>
+		</ul>
+		<h2>Things to do today</h2>
+		<ol>
+			<li>Stay awake during class</li>
+			<li>Feed the dog</li>
+			<li>Make dinner</li>
+		</ol>
 	</body>
 </html>
