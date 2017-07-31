@@ -94,10 +94,10 @@
 					</div>
 				</div>
 			</div>
-			<footer>
-				<p>Footer Here</p>
-			</footer>
 		</div>
+		<footer>
+			<p>Footer Here</p>
+		</footer>
 	</body>
 </html>
 
