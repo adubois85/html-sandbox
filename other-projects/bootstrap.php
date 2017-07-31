@@ -32,11 +32,30 @@
 		<!-- Latest compiled and minified JavaScript -->
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
-
-
 		<title>I'm a Bootstrapping young Website</title>
 	</head>
 	<body>
+		<nav class="navbar navbar-inverse">
+			<!-- logo and mobile toggle button get grouped together for better mobile display -->
+			<div class="navbar-header">
+				<!-- this is the mobile menu button -->
+				<button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#main-menu">
+					<span class="sr-only">main menu</span>
+					<span class="glyphicon glyphicon-menu-hamburger"></span>
+				</button>
+				<a class="navbar-brand" href="#">Bootstrap Webpage</a>
+			</div>
+
+			<!-- here are your main nav links, grouped for toggling -->
+			<div class="collapse navbar-collapse" id="main-menu">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Link1</a></li>
+					<li><a href="#">Link2</a></li>
+					<li><a href="#">Link3</a></li>
+				</ul>
+			</div>
+		</nav>
 		<!-- begin grid layout -->
 		<div	class="container">
 			<div class="row">
