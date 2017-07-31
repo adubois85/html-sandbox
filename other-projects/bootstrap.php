@@ -15,6 +15,7 @@
 				  rel="stylesheet" />
 
 		<!--Custcom CSS here -->
+		<link rel="stylesheet" href="/style.css" type="text/css" />
 
 		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -34,63 +35,68 @@
 
 		<title>I'm a Bootstrapping young Website</title>
 	</head>
-	<body>
-		<nav class="navbar navbar-inverse">
-			<!-- logo and mobile toggle button get grouped together for better mobile display -->
-			<div class="navbar-header">
-				<!-- this is the mobile menu button -->
-				<button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#main-menu">
-					<span class="sr-only">main menu</span>
-					<span class="glyphicon glyphicon-menu-hamburger"></span>
-				</button>
-				<a class="navbar-brand" href="#">Bootstrap Webpage</a>
-			</div>
+	<body class="sfooter">
+		<div class="sfooter-content">
+			<nav class="navbar navbar-inverse">
+				<!-- logo and mobile toggle button get grouped together for better mobile display -->
+				<div class="navbar-header">
+					<!-- this is the mobile menu button -->
+					<button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#main-menu">
+						<span class="sr-only">main menu</span>
+						<span class="glyphicon glyphicon-menu-hamburger"></span>
+					</button>
+					<a class="navbar-brand" href="#">Bootstrap Webpage</a>
+				</div>
 
-			<!-- here are your main nav links, grouped for toggling -->
-			<div class="collapse navbar-collapse" id="main-menu">
-				<ul class="nav navbar-nav navbar-right">
-					<li><a href="#">Home</a></li>
-					<li><a href="https://www.google.com" target="_blank">Google</a></li>
-					<li><a href="http://jetpens.com" target="_blank">Jet Pens</a></li>
-					<li><a href="http://adventurega.me/bootstrap/">Every Bootstrap Site</a></li>
-				</ul>
-			</div>
-		</nav>
-		<!-- begin grid layout -->
-		<div	class="container">
-			<div class="row">
-				<div class="col-md-6">
-					<h2>Column 1</h2>
-					<p>
-						Sensors indicate human life forms 30 meters below the planet's surface. Stellar flares are
-						increasing in magnitude and frequency. Set course for Rhomboid Dronegar 006, warp seven. There's no
-						evidence of an advanced communication network. Total guidance system failure, with less than 24
-						hours' reserve power. Shield effectiveness has been reduced 12 percent. We have covered the area in a
-						spherical pattern which a ship without warp drive could cross in the given time.
-					</p>
+				<!-- here are your main nav links, grouped for toggling -->
+				<div class="collapse navbar-collapse" id="main-menu">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="#">Home</a></li>
+						<li><a href="https://www.google.com" target="_blank">Google</a></li>
+						<li><a href="http://jetpens.com" target="_blank">Jet Pens</a></li>
+						<li><a href="http://adventurega.me/bootstrap/">Every Bootstrap Site</a></li>
+					</ul>
 				</div>
-				<div class="col-md-6">
-					<h2>Column 2</h2>
-					<p>
-						Communication is not possible. The shuttle has no power. Using the gravitational pull of a star to
-						slingshot back in time? We are going to Starbase Montgomery for Engineering consultations prompted by
-						minor read-out anomalies. Probes have recorded unusual levels of geological activity in all five
-						planetary systems. Assemble a team. Look at records of the Drema quadrant. Would these scans detect
-						artificial transmissions as well as natural signals?
-					</p>
+			</nav>
+			<!-- begin grid layout -->
+			<div	class="container">
+				<div class="row">
+					<div class="col-md-6">
+						<h2>Column 1</h2>
+						<p>
+							Sensors indicate human life forms 30 meters below the planet's surface. Stellar flares are
+							increasing in magnitude and frequency. Set course for Rhomboid Dronegar 006, warp seven. There's no
+							evidence of an advanced communication network. Total guidance system failure, with less than 24
+							hours' reserve power. Shield effectiveness has been reduced 12 percent. We have covered the area in a
+							spherical pattern which a ship without warp drive could cross in the given time.
+						</p>
+					</div>
+					<div class="col-md-6">
+						<h2>Column 2</h2>
+						<p>
+							Communication is not possible. The shuttle has no power. Using the gravitational pull of a star to
+							slingshot back in time? We are going to Starbase Montgomery for Engineering consultations prompted by
+							minor read-out anomalies. Probes have recorded unusual levels of geological activity in all five
+							planetary systems. Assemble a team. Look at records of the Drema quadrant. Would these scans detect
+							artificial transmissions as well as natural signals?
+						</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-12">
+						<h2>Column 3</h2>
+						<p>
+							We're acquainted with the wormhole phenomenon, but this... Is a remarkable piece of bio-electronic
+							engineering by which I see much of the EM spectrum ranging from heat and infrared through radio
+							waves, et cetera, and forgive me if I've said and listened to this a thousand times. This planet's
+							interior heat provides an abundance of geothermal energy. We need to neutralize the homing signal.
+						</p>
+					</div>
 				</div>
 			</div>
-			<div class="row">
-				<div class="col-xs-12">
-					<h2>Column 3</h2>
-					<p>
-						We're acquainted with the wormhole phenomenon, but this... Is a remarkable piece of bio-electronic
-						engineering by which I see much of the EM spectrum ranging from heat and infrared through radio
-						waves, et cetera, and forgive me if I've said and listened to this a thousand times. This planet's
-						interior heat provides an abundance of geothermal energy. We need to neutralize the homing signal.
-					</p>
-				</div>
-			</div>
+			<footer>
+				<p>Footer Here</p>
+			</footer>
 		</div>
 	</body>
 </html>
