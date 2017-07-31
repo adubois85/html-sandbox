@@ -50,9 +50,9 @@
 			<div class="collapse navbar-collapse" id="main-menu">
 				<ul class="nav navbar-nav navbar-right">
 					<li><a href="#">Home</a></li>
-					<li><a href="#">Link1</a></li>
-					<li><a href="#">Link2</a></li>
-					<li><a href="#">Link3</a></li>
+					<li><a href="https://www.google.com" target="_blank">Google</a></li>
+					<li><a href="http://jetpens.com" target="_blank">Jet Pens</a></li>
+					<li><a href="http://adventurega.me/bootstrap/">Every Bootstrap Site</a></li>
 				</ul>
 			</div>
 		</nav>
