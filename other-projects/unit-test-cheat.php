@@ -5,6 +5,14 @@
 		<title>Cheatsheet for First Unit Test Exercise</title>
 	</head>
 	<body>
+		<h1>A small preface</h1>
+		<p>
+			One important thing to point out is that while they may use the exact same repository for furture exercises,
+			there is a good chance that they won't.  So it is likely that the exact line numbers and variable names will
+			be different from what you have in front of you.  However, they are defintely trying to challenge each
+			cohort in the same, or very similar, ways, so even if the problems you face aren't exactly the same, the
+			problems and solutions should be at least similar.
+		</p>
 		<ol>
 			<li>The First error is in Quote.php on line 130.  You want to check if the string length is greater than
 				256 characters and throw an error, but the code is asking if it is less 256 character and throwing an
