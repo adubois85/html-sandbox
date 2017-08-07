@@ -27,7 +27,7 @@
 				<a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
 			</p>
 		</div>
-		<div class="">
+		<div class="container">
 			<img src="https://placeimg.com/300/300/sepia" alt="sepia man" />
 
 		</div>
@@ -39,7 +39,7 @@
 			<img class="img-circle" src="https://placeimg.com/300/300/people" alt="person" />
 
 		</div>
-		<div>
+		<div class="col-mid-3">
 			<img class="img-circle" src="https://placeimg.com/300/300/animals" alt="puppy" />
 		</div>
 		<div>
