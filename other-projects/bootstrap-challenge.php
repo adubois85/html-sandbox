@@ -30,41 +30,39 @@
 
 		<div class="container-fluid">
 			<div class="row">
-				<img src="https://placeimg.com/300/300/sepia" alt="sepia man" />
-				<p>
+				<img class="col-mid-2" src="https://placeimg.com/300/300/sepia" alt="sepia man" />
+				<p class="col-mid-10">
 					You enjoyed that. For an android with no feelings, he sure managed to evoke them in others. Then maybe you should consider this: if anything happens to them, Starfleet is going to want a full investigation. My oath is between Captain Kargan and myself. Your only concern is with how you obey my orders. Or do you prefer the rank of prisoner to that of lieutenant? Well, I'll say this for him - he's sure of himself. The look in your eyes, I recognize it. You used to have it for me. I can't. As much as I care about you, my first duty is to the ship.
 				</p>
 			</div>
-
+		</div>
+		<div class="container main">
 			<div class="row">
 				<div class="col-mid-3 col-xs-12">
-					<img class="img-circle" src="https://placeimg.com/300/300/nature" alt="nature" />
+					<img class="img-circle" src="https://placeimg.com/300/300/nature" alt="nature" width="150" height="150"/>
 					<p>Well, that's certainly good to know. I am your worst nightmare!</p>
 				</div>
-			</div>
 
-			<div class="row">
 				<div class="col-mid-3 col-xs-12">
-					<img class="img-circle" src="https://placeimg.com/300/300/people" alt="person" />
+					<img class="img-circle" src="https://placeimg.com/300/300/people" alt="person" width="150" height="150"/>
 					<p>The game's not big enough unless it scares you a little. Fear is the true enemy, the only enemy.</p>
 				</div>
-			</div>
 
-			<div class="row">
 				<div class="col-mid-3 col-xs-12">
-					<img class="img-circle" src="https://placeimg.com/300/300/animals" alt="puppy" />
+					<img class="img-circle" src="https://placeimg.com/300/300/animals" alt="puppy" width="150" height="150"/>
 					<p>Not if I weaken first. Mr. Worf, you do remember how to fire phasers?</p>
 				</div>
-			</div>
 
-			<div class="row">
 				<div class="col-mid-3 col-xs-12">
-					<img class="img-circle" src="https://placeimg.com/300/300/arch" alt="night scene" />
+					<img class="img-circle" src="https://placeimg.com/300/300/arch" alt="night scene" width="150"
+						  height="150"/>
 					<p>A lot of things can change in twelve years, Admiral. Could someone survive inside a transporter buffer for 75 years?</p>
 				</div>
 			</div>
 
+
 		</div>
+
 
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
