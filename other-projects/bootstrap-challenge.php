@@ -62,7 +62,8 @@
 		<div class="container">
 			<div class="row">
 				<!-- Added here during class demonstration-->
-				<img class="col-md-3 col-xs-8 col-xs-offset-2 img-responsive" src="https://placeimg.com/300/300/sepia"
+				<img class="col-md-3 col-xs-8 col-xs-offset-2 col-md-offset-0 img-responsive" src="https://placeimg
+				.com/300/300/sepia"
 					  alt="sepia
 				man" />
 				<p class="col-md-9 col-xs-12">
