@@ -28,23 +28,36 @@
 			</p>
 		</div>
 		<div class="container">
-			<img src="https://placeimg.com/300/300/sepia" alt="sepia man" />
+			<div class="row">
+				<img src="https://placeimg.com/300/300/sepia" alt="sepia man" />
+			</div>
+
+			<div class="row">
+				<div class="col-mid-3 col-xs-12">
+					<img class="img-circle" src="https://placeimg.com/300/300/nature" alt="nature" />
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-mid-3 col-xs-12">
+					<img class="img-circle" src="https://placeimg.com/300/300/people" alt="person" />
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-mid-3 col-xs-12">
+					<img class="img-circle" src="https://placeimg.com/300/300/animals" alt="puppy" />
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-mid-3 col-xs-12">
+					<img class="img-circle" src="https://placeimg.com/300/300/arch" alt="night scene" />
+				</div>
+			</div>
 
 		</div>
-		<div class="col-mid-3 col-xs-12">
-			<img class="img-circle" src="https://placeimg.com/300/300/nature" alt="nature" />
 
-		</div>
-		<div class="col-mid-3 col-xs-12">
-			<img class="img-circle" src="https://placeimg.com/300/300/people" alt="person" />
-
-		</div>
-		<div class="col-mid-3 col-xs-12">
-			<img class="img-circle" src="https://placeimg.com/300/300/animals" alt="puppy" />
-		</div>
-		<div class="col-mid-3 col-xs-12">
-			<img class="img-circle" src="https://placeimg.com/300/300/arch" alt="night scene" />
-		</div>
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
