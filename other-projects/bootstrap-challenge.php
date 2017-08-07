@@ -31,12 +31,10 @@
 						<a class="navbar-brand" href="#">Title</a>
 					</div>
 					<div id="navbar" class="navbar-collapse collapse">
-						<ul class="navbar-nav navbar-right">
+
+						<ul class="nav navbar-nav navbar-right">
 							<li class="active">
-								<a href="#">
-									"Link 1"
-									<span class="sr-only">(current)</span>
-								</a>
+								<a href="./">Link 1<span class="sr-only">(current)</span></a>
 							</li>
 							<li>
 								<a href="#">Link 2</a>
@@ -48,6 +46,7 @@
 								<a href="#">Link 4</a>
 							</li>
 						</ul>
+
 					</div>
 				</div>
 			</nav>
