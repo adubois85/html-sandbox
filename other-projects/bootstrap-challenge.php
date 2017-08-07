@@ -115,9 +115,10 @@
 				</div>
 			</div>
 		</div>
+		<!-- Added footer during class demonstration-->
 		<div class="container">
 			<div class="row">
-				<div class="col-xs-12">
+				<div class="col-xs-12 text-center">
 					<p>Fate protects fools, little children and ships named Enterprise.</p>
 				</div>
 			</div>
