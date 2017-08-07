@@ -19,6 +19,12 @@
 	</head>
 	<body>
 		<h1>Hello, world!</h1>
+		<img src="https://placeimg.com/300/300/sepia" alt="sepia man" />
+
+		<img src="https://placeimg.com/300/300/nature" alt="nature" />
+		<img src="https://placeimg.com/300/300/people" alt="person" />
+		<img src="https://placeimg.com/300/300/animals" alt="puppy" />
+		<img src="https://placeimg.com/300/300/arch" alt="night scene" />
 
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
