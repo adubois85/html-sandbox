@@ -27,13 +27,24 @@
 				<a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
 			</p>
 		</div>
-		<img src="https://placeimg.com/300/300/sepia" alt="sepia man" />
+		<div class="">
+			<img src="https://placeimg.com/300/300/sepia" alt="sepia man" />
 
-		<img src="https://placeimg.com/300/300/nature" alt="nature" />
-		<img src="https://placeimg.com/300/300/people" alt="person" />
-		<img src="https://placeimg.com/300/300/animals" alt="puppy" />
-		<img src="https://placeimg.com/300/300/arch" alt="night scene" />
+		</div>
+		<div>
+			<img class="img-circle" src="https://placeimg.com/300/300/nature" alt="nature" />
 
+		</div>
+		<div>
+			<img class="img-circle" src="https://placeimg.com/300/300/people" alt="person" />
+
+		</div>
+		<div>
+			<img class="img-circle" src="https://placeimg.com/300/300/animals" alt="puppy" />
+		</div>
+		<div>
+			<img class="img-circle" src="https://placeimg.com/300/300/arch" alt="night scene" />
+		</div>
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
