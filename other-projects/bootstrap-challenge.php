@@ -32,7 +32,7 @@
 					</div>
 					<div id="navbar" class="navbar-collapse collapse">
 						<ul class="navbar-nav navbar-right">
-							<li>
+							<li class="active">
 								<a href="#">
 									"Link 1"
 									<span class="sr-only">(current)</span>
