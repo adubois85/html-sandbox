@@ -59,10 +59,13 @@
 			</div>
 		</div>
 
-		<div class="container-fluid">
+		<div class="container">
 			<div class="row">
-				<img class="col-md-2 col-xs-12 img-responsive" src="https://placeimg.com/300/300/sepia" alt="sepia man" />
-				<p class="col-md-10 col-xs-12">
+				<!-- Added here during class demonstration-->
+				<img class="col-md-3 col-xs-8 col-xs-offset-2 img-responsive" src="https://placeimg.com/300/300/sepia"
+					  alt="sepia
+				man" />
+				<p class="col-md-9 col-xs-12">
 					You enjoyed that. For an android with no feelings, he sure managed to evoke them in others. Then maybe you should consider this: if anything happens to them, Starfleet is going to want a full investigation. My oath is between Captain Kargan and myself. Your only concern is with how you obey my orders. Or do you prefer the rank of prisoner to that of lieutenant? Well, I'll say this for him - he's sure of himself. The look in your eyes, I recognize it. You used to have it for me. I can't. As much as I care about you, my first duty is to the ship.
 				</p>
 			</div>
