@@ -73,8 +73,10 @@
 		<div class="container main">
 			<div class="row">
 				<div class="col-lg-3 col-xs-12">
-					<img class="img-circle" src="https://placeimg.com/300/300/nature" alt="nature" width="150" height="150"/>
-					<div class="well">
+					<!-- Added centering for images and texts during demonstration-->
+					<img class="img-circle center-block" src="https://placeimg.com/300/300/nature" alt="nature" width="150"
+						  height="150"/>
+					<div class="well text-center">
 						<p>
 							And blowing into maximum warp speed, you appeared for an instant to be in two places at once. For an android with no feelings, he sure managed to evoke them in others. Sure. You'd be surprised how far a hug goes with Geordi, or Worf. When has justice ever been as simple as a rule book?
 						</p>
@@ -82,8 +84,9 @@
 				</div>
 
 				<div class="col-lg-3 col-xs-12">
-					<img class="img-circle" src="https://placeimg.com/300/300/people" alt="person" width="150" height="150"/>
-					<div class="well">
+					<img class="img-circle center-block" src="https://placeimg.com/300/300/people" alt="person" width="150"
+						  height="150"/>
+					<div class="well text-center">
 						<p>
 							Besides, you look good in a dress. When has justice ever been as simple as a rule book? Ensign Babyface! You're going to be an interesting companion, Mr. Data. Wait a minute - you've been declared dead. You can't give orders around here. Our neural pathways have become accustomed to your sensory input patterns.
 						</p>
@@ -91,8 +94,9 @@
 				</div>
 
 				<div class="col-lg-3 col-xs-12">
-					<img class="img-circle" src="https://placeimg.com/300/300/animals" alt="puppy" width="150" height="150"/>
-					<div class="well">
+					<img class="img-circle center-block" src="https://placeimg.com/300/300/animals" alt="puppy" width="150"
+						  height="150"/>
+					<div class="well text-center">
 						<p>
 							You bet I'm agitated! I may be surrounded by insanity, but I am not insane. When has justice ever been as simple as a rule book? They were just sucked into space. Well, I'll say this for him - he's sure of himself. Worf, It's better than music. It's jazz. Maybe we better talk out here; the observation lounge has turned into a swamp.
 						</p>
@@ -100,9 +104,9 @@
 				</div>
 
 				<div class="col-lg-3 col-xs-12">
-					<img class="img-circle" src="https://placeimg.com/300/300/arch" alt="night scene" width="150"
-						  height="150"/>
-					<div class="well">
+					<img class="img-circle center-block" src="https://placeimg.com/300/300/arch" alt="night scene"
+						  width="150" height="150"/>
+					<div class="well text-center">
 						<p>
 							The look in your eyes, I recognize it. You used to have it for me. Is it my imagination, or have tempers become a little frayed on the ship lately? The unexpected is our normal routine. Now, how the hell do we defeat an enemy that knows us better than we know ourselves?
 						</p>
