@@ -3,5 +3,5 @@ $(".fa-caret-down").on("click", function() {
 });
 
 function testAlert() {
-	alert("hello");
+	alert("Hello");
 }
