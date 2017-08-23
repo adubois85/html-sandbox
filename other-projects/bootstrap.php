@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
 	<head>
 		<meta charset="utf-8" />
@@ -15,7 +15,7 @@
 				  rel="stylesheet" />
 
 		<!--Custcom CSS here -->
-		<link rel="stylesheet" href="/style.css" type="text/css" />
+		<link rel="stylesheet" href="/stylesheets/style.css" type="text/css" />
 
 		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -64,7 +64,7 @@
 					<div class="col-md-6">
 						<h2>Column 1</h2>
 						<p>
-							Sensors indicate human life forms 30 meters below the planet's surface. Stellar flares are
+							Sensors indicate hum an life forms 30 meters below the planet's surface. Stellar flares are
 							increasing in magnitude and frequency. Set course for Rhomboid Dronegar 006, warp seven. There's no
 							evidence of an advanced communication network. Total guidance system failure, with less than 24
 							hours' reserve power. Shield effectiveness has been reduced 12 percent. We have covered the area in a
