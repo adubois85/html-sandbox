@@ -11,3 +11,17 @@ body {
 	font-size: 10em;
 	color: #E1E1E1;
 }
+
+.modal-test {
+	color: black;
+}
+
+body .modal-dialog {
+	width: 150% !important;
+}
+
+@media screen and (min-width: 1400px) {
+	.custom-class {
+		width: 20%; /* either % (e.g. 60%) or px (400px) */
+	}
+}

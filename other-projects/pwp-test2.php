@@ -17,13 +17,15 @@
 	</head>
 	<body>
 		<div	class="container">
-
+  		<!--
 			<div class="row">
 				<a class="btn btn-default border fa fa-caret-down" href="#"></a>
 				<i class="fa fa-caret-up section-test"></i>
 				<button type="button" class="btn btn-primary" onclick="testAlert()">Click Me!</button>
 			</div>
 		</div>
+		-->
+
 
 		<section class="section-main">
 			<div class="container">
@@ -47,7 +49,73 @@
 			</div>
 
 			<!-- pulled from the main PWP file -->
-			<i class="fa fa-caret-left" aria-hidden="true"></i>
+<!--			<i class="fa fa-caret-left" aria-hidden="true"></i>-->
+
+		</section>
+
+
+		<section class="modal-test hidden">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-body">
+						<p>Test modal dialog</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section>
+
+			<div class="container">
+				<!-- Button trigger modal -->
+				<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">
+					Launch demo modal
+				</button>
+
+				<!-- Modal -->
+				<div class="modal fade col-xs-12" id="exampleModalLong" tabindex="-1" role="dialog"
+					  aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+					<div class="modal-dialog" role="document">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+									<span aria-hidden="true">&times;</span>
+								</button>
+							</div>
+							<div class="modal-body">
+								<p>Modal body text goes here.</p>
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+								<button type="button" class="btn btn-primary">Save changes</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<br>
+
+			<!-- Button trigger modal -->
+			<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#custom-id">
+				Launch demo modal
+			</button>
+
+			<div class="modal fade" id="custom-id">
+				<div class="modal-dialog custom-class modal-lg">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h3 class="modal-header-text">Text</h3>
+							<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+						</div>
+						<div class="modal-body">
+							This is some text.
+						</div>
+						<div class="modal-footer">
+							This is some text.
+						</div>
+					</div><!-- /.modal-content -->
+				</div><!-- /.modal-dialog -->
+			</div><!-- /.modal -->
 
 		</section>
 

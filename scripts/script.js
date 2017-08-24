@@ -1,5 +1,5 @@
 $(".fa-caret-down").on("click", function() {
-	$(".section-test").toggle(1000);
+	$(".modal-test").toggle(3000);
 });
 
 function testAlert() {
