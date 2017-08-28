@@ -27,7 +27,6 @@ body .modal-dialog {
 }
 
 .modalDialog {
-	color: black;
 	position: fixed;
 	font-family: Arial, Helvetica, sans-serif;
 	top: 0;
@@ -37,9 +36,9 @@ body .modal-dialog {
 	background: rgba(0,0,0,0.8);
 	z-index: 99999;
 	opacity:0;
-	/*-webkit-transition: opacity 400ms ease-in;*/
-	/*-moz-transition: opacity 400ms ease-in;*/
-	/*transition: opacity 400ms ease-in;*/
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
 	pointer-events: none;
 }
 
@@ -49,6 +48,7 @@ body .modal-dialog {
 }
 
 .modalDialog > div {
+	color: #000;
 	width: 400px;
 	position: relative;
 	margin: 10% auto;
@@ -58,4 +58,113 @@ body .modal-dialog {
 	background: -moz-linear-gradient(#fff, #999);
 	background: -webkit-linear-gradient(#fff, #999);
 	background: -o-linear-gradient(#fff, #999);
+}
+/*.close {
+	background: #606061;
+	color: #FFFFFF;
+	line-height: 25px;
+	position: absolute;
+	right: -12px;
+	text-align: center;
+	top: -10px;
+	width: 24px;
+	text-decoration: none;
+	font-weight: bold;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+	-moz-box-shadow: 1px 1px 3px #000;
+	-webkit-box-shadow: 1px 1px 3px #000;
+	box-shadow: 1px 1px 3px #000;
+}*/
+
+.close:hover {
+	background: #00d9ff;
+}
+
+/*.fa-caret-up:hover {
+	border: 2px solid red;
+	cursor: pointer;
+	color: #00d9ff;
+}*/
+
+.hover-color{
+	color:blue;
+}
+
+
+#job-details-flyout-overlay.active {
+	display: block;
+	-webkit-animation: overlay-showin .3s 0s ease-in-out;
+	-moz-animation: overlay-showin .3s 0s ease-in-out;
+	-ms-animation: overlay-showin .3s 0s ease-in-out;
+	animation: overlay-showin .3s 0s ease-in-out;
+	-webkit-animation-iteration-count: 1;
+	-moz-animation-iteration-count: 1;
+	-ms-animation-iteration-count: 1;
+	animation-iteration-count: 1;
+	-webkit-animation-direction: normal;
+	animation-direction: normal;
+	-webkit-animation-fill-mode: forwards;
+	-moz-animation-fill-mode: forwards;
+	-o-animation-fill-mode: forwards;
+	animation-fill-mode: forwards
+}
+
+#job-details-flyout-overlay.inactive {
+	-webkit-animation: overlay-showout .3s 0s ease-in-out;
+	-moz-animation: overlay-showout .3s 0s ease-in-out;
+	-ms-animation: overlay-showout .3s 0s ease-in-out;
+	animation: overlay-showout .3s 0s ease-in-out;
+	-webkit-animation-iteration-count: 1;
+	-moz-animation-iteration-count: 1;
+	-ms-animation-iteration-count: 1;
+	animation-iteration-count: 1;
+	-webkit-animation-direction: normal;
+	animation-direction: normal;
+	-webkit-animation-fill-mode: forwards;
+	-moz-animation-fill-mode: forwards;
+	-o-animation-fill-mode: forwards;
+	animation-fill-mode: forwards
+}
+
+.flyout-window.inactive {
+	right: -715px
+}
+
+
+#slideout {
+	background: #fff;
+	box-shadow: 0 0 5px rgba(0,0,0,.3);
+	color: #333;
+	position: fixed;
+	top: -22%;
+	right: auto;
+	-webkit-transition-duration: 0.75s;
+	-moz-transition-duration: 1.3s;
+	-o-transition-duration: 1.3s;
+	transition-duration: 1.75s;
+}
+#slideout form {
+	display: block;
+	padding: 20px;
+}
+#slideout textarea {
+	display:block;
+	height: 100px;
+	margin-bottom: 6px;
+	width: 250px;
+}
+#slideout.on {
+	top: 30%;
+}
+
+.fa-caret-up {
+	color: white;
+	transition: color 0.15s ease-in;
+}
+.fa-caret-up:hover {
+	cursor: pointer;
+	color: dodgerblue;
+	transition: color 0.25s ease-out;
 }
