@@ -83,7 +83,7 @@
 			<div class="row justify-content-center">
 				<a href="#" class="fa fa-caret-down btn btn-default"></a>
 			</div>
-			<div id="slideout">
+			<div id="#">
 				<form>
 					<textarea class="form-control"></textarea>
 					<input class="btn btn-primary" type="submit" value="Post feedback"></input>
@@ -93,7 +93,11 @@
 	</section>
 
 
-
+	<section class="section-about-me">
+		<div class="container" id="slideout">
+			<p>Test placeholder text.</p>
+		</div>
+	</section>
 
 
 		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>

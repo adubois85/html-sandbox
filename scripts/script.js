@@ -11,7 +11,7 @@ function testAlert() {
 // })
 //
 
-$('#test-slideout').click(function(){
+$('.fa-caret-up').click(function(){
 	$('#slideout').toggleClass('on');
 });
 
