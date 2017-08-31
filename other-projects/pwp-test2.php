@@ -27,18 +27,21 @@
 			<!--		 This is the main section; it acts as a navigation hub for the other sections -->
 			<section class="section-main">
 				<div class="container">
-					<div class="row justify-content-center">
-						<i class="fa fa-caret-up border" id="test-slideout"></i>
-					</div>
-					<div class="row justify-content-center">
-						<a class="btn btn-default border fa fa-caret-left col-xs-3" href="#"></a>
-						<p class="border col-xs-3">This is my webpage.  Click on the arrows to navigate.</p>
-						<a class="btn btn-default border fa fa-caret-right col-xs-3" href="#"></a>
-					</div>
-					<div class="row justify-content-center">
-						<a class="btn btn-default border fa fa-caret-down d-inline" href="#"></a>
+					<div class="container-fluid align-items-center border">
+						<div class="row justify-content-center">
+							<i class="fa fa-caret-up border slidedown" id="test-slideout"></i>
+						</div>
+						<div class="row justify-content-center">
+							<a class="btn btn-default border fa fa-caret-left col-xs-3" href="#"></a>
+							<p class="border col-xs-3">This is my webpage.  Click on the arrows to navigate.</p>
+							<a class="btn btn-default border fa fa-caret-right col-xs-3" href="#"></a>
+						</div>
+						<div class="row justify-content-center">
+							<a class="btn btn-default border fa fa-caret-down d-inline" href="#"></a>
+						</div>
 					</div>
 				</div>
+
 			</section>
 
 				<!-- pulled from the main PWP file -->
@@ -78,24 +81,31 @@
 "
 			</div>
 		</div> -->
-	<section>
-		<div class="container">
-			<div class="row justify-content-center">
-				<a href="#" class="fa fa-caret-down btn btn-default"></a>
-			</div>
-			<div id="#">
-				<form>
-					<textarea class="form-control"></textarea>
-					<input class="btn btn-primary" type="submit" value="Post feedback"></input>
-				</form>
-			</div>
-		</div>
-	</section>
+<!--	<section>-->
+<!--		<div class="container">-->
+<!--			<div class="row justify-content-center">-->
+<!--				<a href="#" class="fa fa-caret-down btn btn-default"></a>-->
+<!--			</div>-->
+<!--			<div id="#">-->
+<!--				<form>-->
+<!--					<textarea class="form-control"></textarea>-->
+<!--					<input class="btn btn-primary" type="submit" value="Post feedback"></input>-->
+<!--				</form>-->
+<!--			</div>-->
+<!--		</div>-->
+<!--	</section>-->
 
 
 	<section class="section-about-me">
 		<div class="container" id="slideout">
-			<p>Test placeholder text.</p>
+			<p>
+				Unidentified vessel travelling at sub warp speed, bearing 235.7. Fluctuations in energy readings from it, Captain. All transporters off. A strange set-up, but I'd say the graviton generator is depolarized. The dark colourings of the scrapes are the leavings of natural rubber, a type of non-conductive sole used by researchers experimenting with electricity. The molecules must have been partly de-phased by the anyon beam.
+			</p>
+
+			<p>
+				Sensors indicate no shuttle or other ships in this sector. According to coordinates, we have travelled 7,000 light years and are located near the system J-25. Tractor beam released, sir. Force field maintaining our hull integrity. Damage report? Sections 27, 28 and 29 on decks four, five and six destroyed. Without our shields, at this range it is probable a photon detonation could destroy the Enterprise.
+			</p>
+
 		</div>
 	</section>
 

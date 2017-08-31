@@ -138,8 +138,10 @@ body .modal-dialog {
 	box-shadow: 0 0 5px rgba(0,0,0,.3);
 	color: #333;
 	position: fixed;
-	top: -10%;
-	left: 75%;
+	top: -200%;
+	left: 31%;
+	width: 500px;
+	height: 75%;
 	-webkit-transition-duration: 0.25s;
 	-moz-transition-duration: 1.3s;
 	-o-transition-duration: 1.3s;
@@ -159,7 +161,12 @@ body .modal-dialog {
 }
 */
 #slideout.on {
-	top: 30%;
+	top: 20%;
+}
+
+.slidedown {
+	display: flex;
+	align-items: center;
 }
 
 .fa-caret-up {
